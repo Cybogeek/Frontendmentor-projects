@@ -1,0 +1,59 @@
+body {
+  background: #d5e1ef;
+  font-family: "Outfit", "SansSerif";
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  height: 100vh;
+  margin: 0 auto;
+}
+#container {
+  height: 500px;
+  width: 320px;
+  background: #fff;
+  border-radius: 20px;
+  /* padding: 16px; */
+}
+#qr-box {
+  margin: 16px auto;
+  width: 288px;
+  height: 288px;
+  background: url("../images/Blue-Shade.png") left top no-repeat,
+    url("../images/Blue-Shade.png") right bottom no-repeat, #2c7dfa;
+  background-position: -125px -175px, -225% -525%, center;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+.image {
+  width: 160px;
+  height: 160px;
+  margin: auto;
+}
+#text-box {
+  margin: 0 16px;
+  padding: 0 16px;
+}
+h2 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #1f314f;
+  word-break: break-word;
+  text-align: center;
+}
+p {
+  font-size: 15px;
+  color: #7d889e;
+  word-break: break-word;
+  text-align: center;
+  letter-spacing: 0.25px;
+}
+@media screen  and (max-width: 600px){
+    #qr-box{
+        background: url("../images/blue.png") left top no-repeat,
+        url("../images/blue.png") right bottom no-repeat, #3685FF;
+        background-position: -125px -175px, -225% -525%, center;
+    }
+   
+}
